@@ -1,0 +1,94 @@
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#141e30, #243b55);
+}
+
+.modal-content
+{
+    color: #FFFFFF;
+    background: rgba(0,0,0,0.5);
+}
+
+/*Dit is de styling van de header*/
+#header
+{
+    color: white;
+    background: linear-gradient(#141e30, #243b55);
+    width: 100%;
+    position: relative;
+    font-size: 30px;
+    top: 0;
+    z-index: 1;
+}
+
+/*Dit is de styling van de footer*/
+#footer
+{
+    color: white;
+    background: linear-gradient(#141e30, #243b55);
+    width: 100%;
+    /*position: relative;*/
+    bottom: 0;
+    z-index: 1;
+}
+
+/*Deze media screen is om ervoor te zorgen dat de footer netjes onder de container komt te staan als het scherm kleiner is dan de gegeven maximun breedte*/
+@media only screen and (max-width: 766px)
+{
+    #footer {
+        position: relative
+    }
+}
+
+/*Deze media screen is om ervoor te zorgen dat de footer netjes onderaan de painga komt te staan als het scherm groter is dan de gegeven minimun breedte*/
+@media only screen and (min-width: 767px)
+{
+    #footer {
+        position: fixed;
+    }
+}
+
+/*Dit is voor de container een mooi kleurtje te geven en een klein beetje ronder te maken*/
+.container
+{
+    background: rgba(0,0,0,0.5);
+    color:white;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.card
+{
+    background: rgba(0,0,0,0.5);
+    color:white;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#gameTable thead{
+    color: white;
+}
+
+#gameTable_length, #gameTable_filter, #gameTable_info, #gameTable_paginate {
+    color: white;
+}
+
+#recordTable thead{
+    color: white;
+}
+
+#recordTable_length, #recordTable_filter, #recordTable_info, #recordTable_paginate {
+    color: white;
+}
+
+#playerTable thead{
+    color: white;
+}
+
+#playerTable_length, #playerTable_filter, #playerTable_info, #playerTable_paginate {
+    color: white;
+}

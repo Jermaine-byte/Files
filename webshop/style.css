@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
+
+html
+{
+    height: 100%;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #243b55;
+}
+
+#title
+{
+    font-weight: bold;
+    font-family: Asap, sans-serif;
+}
+
+/*Dit is de styling van de header*/
+#header
+{
+    color: white;
+    background: linear-gradient(#141e30, #243b55);
+    width: 100%;
+    position: relative;
+    font-size: 30px;
+    top: 0;
+    z-index: 1;
+}
+
+/*Dit is de styling van de footer*/
+#footer
+{
+    color: white;
+    background: linear-gradient(#141e30, #243b55);
+    width: 100%;
+    /*position: relative;*/
+    bottom: 0;
+    z-index: 1;
+}
+
+/*Dit is voor de container een mooi kleurtje te geven en een klein beetje ronder te maken*/
+.container
+{
+    background: rgba(0,0,0,0.5);
+    color:white;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.card
+{
+    background: rgba(0,0,0,0.5);
+    color:white;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.products
+{
+    border: 1px solid #03e9f4;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 5px;
+    padding: 16px;
+    margin-bottom: 20px;
+}
+
+.table {
+    margin: 0 auto;
+    float: none;
+}
+
+.centered {
+    float: none;
+    margin: 0 auto;
+}
+
+.button {
+    background: #6394F8;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+    border-radius: 3px;
+    font-size: 16px;
+    margin: 25px 0 15px 0;
+}
+
+.button:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.button:hover {
+    background: #7fa9ff;
+    text-decoration: none;
+    color: white;
+}
+
+.button:active {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-danger {
+    font-size: 12px;
+    padding: 3px;
+}
+
+.btn-danger:hover {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h3 {
+    margin-top: 0px;
+}
+
+table h3{
+    color:white;
+}
+
+table tr{
+    color:white;
+}
+
+#stockTable thead{
+    color: white;
+}
+
+#stockTable tbody tr{
+    color: black;
+}
+
+#stockTable_length, #stockTable_filter, #stockTable_info, #stockTable_paginate {
+    color: white;
+}
